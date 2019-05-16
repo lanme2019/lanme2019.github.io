@@ -5,7 +5,7 @@
 # Site
 title: lanme2019's Blog
 subtitle:
-description: Stay hungry, stay foolish.
+description: 压力来自轮胎.
 keywords:
 author: lanme2019
 language: zh-CN
@@ -89,18 +89,11 @@ post_end_tag:
   enabled: true  # 是否开启文末的本文结束标记
   icon: paw # 结束标记之间的图标
 
-#加载进度条
-pace: true
+symbols_count_time:
+  symbols: true   # 统计单篇文章字数
+  time: true   # 取消估算单篇文章阅读时间
+  total_symbols: true  # 统计站点总字数
+  total_time: false  # 取消估算站点总阅读时间
 
-#不蒜子  记录  uv  pv
-busuanzi_count:
-  enable: true
-  # 访客数
-  total_visitors: true
-  total_visitors_icon: user
-   # 访问量
-  total_views: true
-  total_views_icon: eye
-  post_views: false
-  post_views_icon: eye
+
 
