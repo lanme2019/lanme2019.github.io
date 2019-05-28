@@ -455,7 +455,7 @@ needmoreshare2:
 #google_site_verification:
 
 # Google Analytics
-google_analytics: #UA-48084758-7
+google_analytics: UA-140918478-1
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
@@ -818,9 +818,9 @@ footer:
     version: true
   # -------------------------------------------------------------
   # Any custom text can be defined here.
-#  custom_text: 托管于<a href="https://github.com/" target="_blank" rel="nofollow"> GitHub</a>. <a href="https://www.upyun.com/" target="_blank" rel="nofollow">又拍云</a> 提供 CDN 服务. <a href="http://www.google.com/analytics/" target="_blank" rel="nofollow">Google Analytics </a>提供网站统计服务. <a href="https://www.cloudxns.net/" target="_blank" rel="nofollow">CloudXNS </a>提供 DNS 解析服务.
+  custom_text: <a href="https://github.com/lanme2019" target="_blank" rel="nofollow"> GitHub</a>提供托管服务.  <a href="http://www.google.com/analytics/" target="_blank" rel="nofollow">Google Analytics </a>提供网站统计服务. <a href="https://https://www.upyun.com/" target="_blank" rel="nofollow">又拍云 </a>提供 CDN 服务.<a href="https://www.upyun.com/" target="_blank" rel="nofollow">  <img style="width:60px;vertical-align:middle;display:inline;" src="/images/youpai.png"></a>
   sitemap: /sitemap.xml
-  beian:  <a href="http://www.beian.miit.gov.cn"  rel="nofollow"> 京ICP备19022569号</a>
+#  beian:  <a href="http://www.beian.miit.gov.cn"  rel="nofollow"> 京ICP备19022569号</a>
 
 online_api: #wss://api.diygod.me/online/
 
