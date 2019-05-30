@@ -264,7 +264,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night eighties
 
 
 # ---------------------------------------------------------------
@@ -372,13 +372,21 @@ changyan:
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://github.com/xCss/Valine
+
+
 valine:
-  enable: false
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
-  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
+  appid: 5UrsL5MIa0yOmc6apq07pLJS-gzGzoHsz
+  appkey: t5Td04qmbvkbWBV8ohL4fw24
+  notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
   verify: false # Verification code
-  placeholder: Comment input placeholder
+  placeholder: 'Leave a message here' # comment box placeholder
+  avatar: mp # gravatar style
+  guest_info: nick,mail,link # custom comment header
+  pageSize: 10 # pagination size
+  language: zh-cn # language, available values: en, zh-cn
+  visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
+  comment_count: true # if false, comment count will only be displayed in post page, not in home page
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
@@ -568,6 +576,7 @@ calendar:
   singleEvents: true
   maxResults: 250
 
+
 # Algolia Search
 algolia_search:
   enable: false
@@ -649,7 +658,7 @@ motion:
     sidebar: slideUpIn
 
 # Fancybox
-fancybox: false
+fancybox: true
 
 # Progress bar in the top during page loading.
 pace: false
@@ -711,8 +720,8 @@ vendors:
 
   # Internal version: 2.1.5
   # See: http://fancyapps.com/fancybox/
-  fancybox: https://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js
-  fancybox_css: https://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css
+  fancybox: https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.js
+  fancybox_css: https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.css
 
   # Internal version: 1.0.6
   # See: https://github.com/ftlabs/fastclick
@@ -828,3 +837,6 @@ description: <span>写代码是热爱，</span><span>写到世界充满爱！</s
 
 # Theme version
 version: 0.0.42
+
+
+

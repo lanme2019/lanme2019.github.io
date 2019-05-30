@@ -39,7 +39,7 @@ $(document).on('pjax:end', function () {
     require('./leancloud')();
     require('./share')();
     require('./pisces')();
-    require('./zoom')();
+    // require('./zoom')();
     window.originTitle = document.title;
 
     if (ga) {

@@ -104,3 +104,5 @@ js_minifier:
 
 image_minifier:
   enable: false
+
+
