@@ -533,6 +533,7 @@ leancloud_visitors:
   app_id: 5UrsL5MIa0yOmc6apq07pLJS-gzGzoHsz
   app_key: t5Td04qmbvkbWBV8ohL4fw24
 
+
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
@@ -698,7 +699,7 @@ canvas_sphere: false
 # alpha: The transparency of the ribbon.
 # zIndex: The display level of the ribbon.
 canvas_ribbon:
-  enable: true
+  enable: false
   size: 100
   alpha: 0.6
   zIndex: -1
