@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4edbfe63-ff22-4266-899b-e60eca17544f" name="Default" comment="个性化修改">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,18 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/tags/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="63">
-                <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/about/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -80,30 +68,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/sagiri/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-63">
-              <folding>
-                <element signature="e#8458#8465#0" expanded="true" />
-                <element signature="e#11081#11088#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="294">
+              <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/sagiri/package.json">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-378" />
+            <state relative-caret-position="314">
+              <caret line="30" column="33" selection-start-line="29" selection-start-column="2" selection-end-line="30" selection-end-column="33" />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+            <state relative-caret-position="-211">
+              <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -219,7 +215,6 @@
         <option value="$PROJECT_DIR$/source/_posts/about.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/source/_posts/hello.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/source/404/index.md" />
         <option value="$PROJECT_DIR$/source/_posts/note.java" />
         <option value="$PROJECT_DIR$/source/_posts/第一次post.md" />
@@ -232,6 +227,7 @@
         <option value="$PROJECT_DIR$/themes/sagiri/source/css/_common/components/highlight/highlight.styl" />
         <option value="$PROJECT_DIR$/themes/sagiri/source/css/_variables/base.styl" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -247,899 +243,8 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/.deploy_git/lib/velocity-animate/package.json" />
       <path value="$PROJECT_DIR$/package.json" />
       <path value="$PROJECT_DIR$/public/lib/velocity-animate/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/code-frame/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/core/node_modules/@babel/generator/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/core/node_modules/@babel/parser/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/core/node_modules/@babel/template/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/core/node_modules/@babel/traverse/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/core/node_modules/@babel/types/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/core/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/core/node_modules/json5/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/core/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/core/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/core/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/core/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/core/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/generator/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/generator/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helper-annotate-as-pure/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helper-builder-binary-assignment-operator-visitor/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helper-call-delegate/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helper-define-map/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helper-explode-assignable-expression/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helper-function-name/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helper-get-function-arity/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helper-hoist-variables/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helper-member-expression-to-functions/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helper-module-imports/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helper-module-transforms/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helper-optimise-call-expression/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helper-plugin-utils/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helper-regex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helper-remap-async-to-generator/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helper-replace-supers/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helper-simple-access/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helper-split-export-declaration/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helper-wrap-function/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helpers/node_modules/@babel/generator/node_modules/@babel/types/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helpers/node_modules/@babel/generator/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helpers/node_modules/@babel/parser/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helpers/node_modules/@babel/traverse/node_modules/@babel/types/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helpers/node_modules/@babel/traverse/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helpers/node_modules/@babel/types/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helpers/node_modules/@babel/types/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helpers/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/helpers/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/highlight/node_modules/js-tokens/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/highlight/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/parser/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-proposal-async-generator-functions/node_modules/@babel/plugin-syntax-async-generators/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-proposal-async-generator-functions/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-proposal-json-strings/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-proposal-object-rest-spread/node_modules/@babel/plugin-syntax-object-rest-spread/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-proposal-object-rest-spread/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-proposal-optional-catch-binding/node_modules/@babel/plugin-syntax-optional-catch-binding/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-proposal-optional-catch-binding/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-proposal-unicode-property-regex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-syntax-async-generators/node_modules/@babel/core/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-syntax-async-generators/node_modules/@babel/helpers/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-syntax-async-generators/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-syntax-async-generators/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-syntax-async-generators/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-syntax-json-strings/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-syntax-object-rest-spread/node_modules/@babel/core/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-syntax-object-rest-spread/node_modules/@babel/helpers/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-syntax-object-rest-spread/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-syntax-object-rest-spread/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-syntax-object-rest-spread/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-syntax-optional-catch-binding/node_modules/@babel/core/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-syntax-optional-catch-binding/node_modules/@babel/helpers/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-syntax-optional-catch-binding/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-syntax-optional-catch-binding/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-syntax-optional-catch-binding/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-arrow-functions/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-async-to-generator/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-block-scoped-functions/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-block-scoping/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-block-scoping/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-classes/node_modules/@babel/generator/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-classes/node_modules/@babel/helper-replace-supers/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-classes/node_modules/@babel/parser/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-classes/node_modules/@babel/traverse/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-classes/node_modules/@babel/types/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-classes/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-classes/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-classes/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-classes/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-classes/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-computed-properties/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-destructuring/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-dotall-regex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-duplicate-keys/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-exponentiation-operator/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-for-of/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-function-name/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-literals/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-modules-amd/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-modules-commonjs/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-modules-systemjs/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-modules-umd/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-named-capturing-groups-regex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-new-target/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-object-super/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-parameters/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-regenerator/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-shorthand-properties/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-spread/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-sticky-regex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-template-literals/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-typeof-symbol/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/plugin-transform-unicode-regex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/preset-env/node_modules/@babel/plugin-syntax-async-generators/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/preset-env/node_modules/@babel/plugin-syntax-object-rest-spread/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/preset-env/node_modules/@babel/plugin-syntax-optional-catch-binding/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/preset-env/node_modules/browserslist/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/preset-env/node_modules/caniuse-lite/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/preset-env/node_modules/electron-to-chromium/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/preset-env/node_modules/node-releases/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/preset-env/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/template/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/traverse/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@babel/types/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@webassemblyjs/ast/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@webassemblyjs/floating-point-hex-parser/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@webassemblyjs/helper-api-error/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@webassemblyjs/helper-buffer/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@webassemblyjs/helper-code-frame/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@webassemblyjs/helper-fsm/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@webassemblyjs/helper-module-context/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@webassemblyjs/helper-wasm-bytecode/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@webassemblyjs/helper-wasm-section/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@webassemblyjs/ieee754/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@webassemblyjs/leb128/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@webassemblyjs/utf8/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@webassemblyjs/wasm-edit/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@webassemblyjs/wasm-gen/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@webassemblyjs/wasm-opt/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@webassemblyjs/wasm-parser/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@webassemblyjs/wast-parser/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@webassemblyjs/wast-printer/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@xtuc/ieee754/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/@xtuc/long/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/acorn-dynamic-import/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/acorn/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/ajv-errors/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/ajv-keywords/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/ajv/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/ansi-colors/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/ansi-escapes/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/ansi-gray/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/ansi-styles/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/ansi-wrap/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/anymatch/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/aplayer/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/append-buffer/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/aproba/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/archy/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/arr-diff/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/arr-filter/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/arr-flatten/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/arr-map/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/arr-union/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/array-each/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/array-initial/node_modules/is-number/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/array-initial/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/array-last/node_modules/is-number/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/array-last/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/array-slice/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/array-sort/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/array-sort/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/array-unique/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/ascli/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/asn1.js/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/assert/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/assign-symbols/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/async-done/node_modules/process-nextick-args/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/async-done/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/async-each/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/async-limiter/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/async-settle/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/asynckit/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/atob/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/autoprefixer/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/axios/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/babel-loader/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/babel-runtime/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/bach/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/balanced-match/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/balloon-css/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/base/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/base/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/base64-arraybuffer/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/base64-js/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/big.js/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/binary-extensions/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/bluebird/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/bn.js/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/brace-expansion/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/braces/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/brorand/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/browserify-aes/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/browserify-cipher/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/browserify-des/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/browserify-rsa/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/browserify-sign/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/browserify-zlib/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/browserslist/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/buffer-equal/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/buffer-from/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/buffer-xor/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/buffer/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/builtin-modules/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/builtin-status-codes/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/bytebuffer/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/cacache/node_modules/glob/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/cacache/node_modules/graceful-fs/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/cacache/node_modules/y18n/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/cacache/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/cache-base/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/camelcase/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/caniuse-lite/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/chardet/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/charenc/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/chokidar/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/chokidar/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/chownr/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/chrome-trace-event/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/cipher-base/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/class-utils/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/clean-css/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/cli-cursor/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/cli-width/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/cliui/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/clone-buffer/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/clone-stats/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/clone/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/cloneable-readable/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/code-point-at/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/coffee-script/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/collection-map/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/collection-visit/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/color-convert/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/color-name/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/color-support/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/colour/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/combined-stream/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/commander/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/commondir/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/component-emitter/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/concat-map/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/concat-stream/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/concat-with-sourcemaps/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/console-browserify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/constants-browserify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/convert-source-map/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/cookiejar/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/copy-concurrently/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/copy-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/copy-props/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/core-js/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/core-util-is/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/corner-notie/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/create-ecdh/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/create-hash/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/create-hmac/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/cross-env/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/cross-spawn/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/crypt/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/crypto-browserify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/cyclist/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/d/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/date-now/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/decamelize/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/decode-uri-component/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/default-compare/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/default-compare/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/default-resolution/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/define-properties/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/define-property/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/define-property/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/define-property/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/define-property/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/define-property/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/define-property/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/delayed-stream/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/des.js/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/detect-file/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/diffie-hellman/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/core/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/core/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/helpers/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-proposal-async-generator-functions/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-proposal-json-strings/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-proposal-object-rest-spread/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-proposal-optional-catch-binding/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-proposal-unicode-property-regex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-syntax-json-strings/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-arrow-functions/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-async-to-generator/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-block-scoped-functions/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-block-scoping/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-classes/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-computed-properties/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-destructuring/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-dotall-regex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-duplicate-keys/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-exponentiation-operator/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-for-of/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-function-name/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-literals/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-modules-amd/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-modules-commonjs/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-modules-systemjs/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-modules-umd/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-object-super/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-parameters/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-regenerator/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-shorthand-properties/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-spread/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-sticky-regex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-template-literals/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-typeof-symbol/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/plugin-transform-unicode-regex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/@babel/preset-env/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/gulp-babel/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/regenerator-transform/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/disqusjs/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/domain-browser/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/node_modules/camelcase/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/node_modules/cliui/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/node_modules/enhanced-resolve/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/node_modules/execa/node_modules/cross-spawn/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/node_modules/execa/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/node_modules/import-local/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/node_modules/is-fullwidth-code-point/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/node_modules/lru-cache/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/node_modules/mem/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/node_modules/os-locale/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/node_modules/pkg-dir/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/node_modules/promise-polyfill/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/node_modules/string-width/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/node_modules/v8-compile-cache/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/node_modules/webpack-cli/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/node_modules/yallist/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/node_modules/yargs-parser/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/node_modules/yargs/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/dplayer/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/duplexify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/each-props/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/electron-to-chromium/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/elliptic/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/emojis-list/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/end-of-stream/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/enhanced-resolve/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/errno/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/error-ex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/es-abstract/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/es-to-primitive/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/es5-ext/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/es6-iterator/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/es6-promise/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/es6-symbol/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/es6-weak-map/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/escape-string-regexp/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/eslint-scope/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/esrecurse/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/estraverse/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/esutils/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/eventemitter3/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/events/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/evp_bytestokey/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/execa/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/expand-brackets/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/expand-brackets/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/expand-tilde/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/exports-loader/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/exports-loader/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/extend/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/external-editor/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/extglob/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/extglob/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/fancy-log/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/fancybox/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/fast-deep-equal/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/fast-json-stable-stringify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/fastclick/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/figgy-pudding/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/figures/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/file-loader/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/fill-range/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/find-cache-dir/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/find-up/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/findup-sync/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/fined/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/flagged-respawn/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/flush-write-stream/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/follow-redirects/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/for-in/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/for-own/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/form-data/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/formidable/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/fragment-cache/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/from2/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/fs-mkdirp-stream/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/fs-write-stream-atomic/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/fs.realpath/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/function-bind/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/get-caller-file/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/get-stream/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/get-value/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/git-revision-webpack-plugin/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/glob-parent/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/glob-stream/node_modules/glob/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/glob-stream/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/glob-watcher/node_modules/chokidar/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/glob-watcher/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/glob-watcher/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/glob/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/global-modules-path/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/global-modules/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/global-prefix/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/globals/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/glogg/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/graceful-fs/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/gsap/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/gulp-autoprefixer/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/gulp-clean-css/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/gulp-clean-css/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/gulp-clean-css/node_modules/through2/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/gulp-clean-css/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/gulp-cli/node_modules/which-module/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/gulp-cli/node_modules/yargs-parser/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/gulp-cli/node_modules/yargs/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/gulp-cli/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/gulp-header/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/gulp-uglify/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/gulp-uglify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/gulp/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/gulplog/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/has-flag/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/has-gulplog/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/has-symbols/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/has-value/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/has-values/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/has-values/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/has/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/hash-base/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/hash.js/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/headroom.js/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/hmac-drbg/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/homedir-polyfill/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/hosted-git-info/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/https-browserify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/iconv-lite/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/ieee754/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/iferr/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/import-local/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/imurmurhash/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/indexof/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/inflight/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/ini/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/inquirer/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/inquirer/node_modules/is-fullwidth-code-point/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/inquirer/node_modules/string-width/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/inquirer/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/inquirer/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/interpret/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/invariant/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/invert-kv/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-absolute/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-arrayish/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-binary-path/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-buffer/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-builtin-module/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-callable/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-date-object/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-extglob/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-fullwidth-code-point/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-negated-glob/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-number/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-number/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-odd/node_modules/is-number/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-odd/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-plain-object/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-promise/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-regex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-relative/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-stream/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-symbol/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-unc-path/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-utf8/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-valid-glob/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/is-windows/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/isexe/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/isobject/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/javascript-state-machine/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/jquery-pjax/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/js-levenshtein/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/js-tokens/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/jsesc/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/json-parse-better-errors/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/json-schema-traverse/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/json-stable-stringify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/json5/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/jsonify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/just-debounce/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/last-run/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/lazyload/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/lazystream/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/lcid/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/lead/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/leancloud-realtime-plugin-live-query/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/leancloud-realtime/node_modules/eventemitter3/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/leancloud-realtime/node_modules/uuid/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/leancloud-realtime/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/leancloud-storage/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/liftoff/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/load-json-file/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/loader-runner/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/loader-utils/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/localstorage-memory/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/locate-path/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/lodash._reinterpolate/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/lodash.debounce/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/lodash.template/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/lodash.templatesettings/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/long/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/loose-envify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/lru-cache/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/make-dir/node_modules/pify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/make-dir/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/make-error-cause/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/make-error/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/make-iterator/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/mamacro/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/map-age-cleaner/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/map-cache/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/map-visit/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/matchdep/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/md5.js/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/md5/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/mem/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/memory-fs/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/methods/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/micromatch/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/micromatch/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/micromatch/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/micromatch/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/miller-rabin/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/mime-db/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/mime-types/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/mime/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/mimic-fn/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/mini-css-extract-plugin/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/minimalistic-assert/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/minimalistic-crypto-utils/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/mississippi/node_modules/pump/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/mississippi/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/mixin-deep/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/mixin-deep/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/mkdirp/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/mkdirp/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/move-concurrently/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/mute-stdout/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/mute-stream/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/nanomatch/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/nanomatch/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/nanomatch/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/nanomatch/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/neo-async/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/next-tick/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/nice-try/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/node-libs-browser/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/node-releases/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/normalize-package-data/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/normalize-package-data/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/normalize-path/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/normalize-range/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/now-and-later/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/npm-run-path/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/nprogress/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/num2fraction/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/number-is-nan/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/object-copy/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/object-copy/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/object-keys/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/object-visit/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/object.assign/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/object.defaults/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/object.getownpropertydescriptors/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/object.map/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/object.pick/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/object.reduce/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/once/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/onetime/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/optjs/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/ordered-read-streams/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/os-browserify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/os-locale/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/os-tmpdir/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/p-defer/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/p-finally/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/p-is-promise/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/p-limit/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/p-locate/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/p-try/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/pako/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/parallel-transform/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/parse-asn1/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/parse-filepath/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/parse-json/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/parse-passwd/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/pascalcase/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/path-browserify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/path-dirname/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/path-exists/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/path-is-absolute/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/path-key/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/path-parse/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/path-root-regex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/path-root/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/path-type/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/pbkdf2/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/pify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/pinkie-promise/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/pinkie/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/pkg-dir/node_modules/find-up/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/pkg-dir/node_modules/locate-path/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/pkg-dir/node_modules/p-limit/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/pkg-dir/node_modules/p-locate/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/pkg-dir/node_modules/p-try/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/pkg-dir/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/plugin-error/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/plugin-error/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/plugin-error/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/posix-character-classes/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/postcss-value-parser/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/postcss/node_modules/supports-color/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/postcss/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/pretty-hrtime/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/private/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/process-nextick-args/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/process/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/promise-inflight/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/promise-polyfill/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/protobufjs/examples/protoify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/protobufjs/examples/websocket/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/protobufjs/node_modules/camelcase/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/protobufjs/node_modules/yargs/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/protobufjs/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/prr/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/pseudomap/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/public-encrypt/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/pump/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/pumpify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/punycode/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/qs/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/querystring-es3/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/querystring/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/randombytes/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/randomfill/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/read-pkg-up/node_modules/find-up/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/read-pkg-up/node_modules/path-exists/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/read-pkg-up/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/read-pkg/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/readdirp/examples/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/readdirp/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/rechoir/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/regenerate-unicode-properties/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/regenerate/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/regenerator-runtime/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/regenerator-transform/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/regex-not/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/regex-not/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/regex-not/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/regexp-tree/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/regexpu-core/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/regjsgen/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/regjsparser/node_modules/jsesc/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/regjsparser/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/remove-bom-buffer/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/remove-bom-stream/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/remove-trailing-separator/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/repeat-element/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/repeat-string/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/replace-ext/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/replace-homedir/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/require-directory/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/require-main-filename/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/resolve-cwd/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/resolve-dir/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/resolve-from/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/resolve-options/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/resolve-url/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/resolve/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/resolve/test/resolver/baz/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/resolve/test/resolver/browser_field/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/resolve/test/resolver/dot_main/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/resolve/test/resolver/incorrect_main/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/restore-cursor/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/ret/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/rimraf/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/ripemd160/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/run-async/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/run-queue/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/rxjs/ajax/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/rxjs/internal-compatibility/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/rxjs/operators/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/rxjs/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/rxjs/src/ajax/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/rxjs/src/internal-compatibility/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/rxjs/src/operators/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/rxjs/src/testing/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/rxjs/src/webSocket/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/rxjs/testing/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/rxjs/webSocket/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/safe-regex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/safer-buffer/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/schema-utils/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/semver-greatest-satisfied-range/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/serialize-javascript/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/set-blocking/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/set-immediate-shim/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/set-value/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/setimmediate/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/sha.js/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/shebang-command/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/shebang-regex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/signal-exit/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/smoothscroll/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/snapdragon-node/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/snapdragon-node/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/snapdragon-util/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/snapdragon-util/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/snapdragon/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/snapdragon/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/snapdragon/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/social-share.js/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/source-list-map/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/source-map-resolve/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/source-map-support/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/source-map-url/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/sparkles/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/spdx-correct/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/spdx-exceptions/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/spdx-expression-parse/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/spdx-license-ids/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/split-string/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/split-string/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/split-string/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/ssri/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/stack-trace/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/static-extend/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/stream-browserify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/stream-each/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/stream-exhaust/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/stream-http/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/stream-http/test/browser/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/stream-shift/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/string-width/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/strip-bom/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/strip-eof/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/superagent/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/supports-color/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/sver-compat/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/tapable/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/terser-webpack-plugin/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/terser/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/through/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/through2-filter/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/through2/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/time-stamp/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/timers-browserify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/tmp/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/to-absolute-glob/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/to-arraybuffer/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/to-fast-properties/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/to-object-path/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/to-object-path/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/to-regex-range/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/to-regex/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/to-regex/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/to-regex/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/to-regex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/to-through/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/trim-right/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/tslib/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/tty-browserify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/typedarray/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/uglify-js/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/unc-path-regex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/underscore/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/undertaker-registry/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/undertaker/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/unicode-canonical-property-names-ecmascript/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/unicode-match-property-ecmascript/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/unicode-match-property-value-ecmascript/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/unicode-property-aliases-ecmascript/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/union-value/node_modules/set-value/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/union-value/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/unique-filename/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/unique-slug/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/unique-stream/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/unset-value/node_modules/has-value/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/unset-value/node_modules/has-values/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/unset-value/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/upath/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/uri-js/node_modules/punycode/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/uri-js/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/urix/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/url/node_modules/punycode/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/url/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/use/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/util-deprecate/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/util.promisify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/util/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/util/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/uuid/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/v8-compile-cache/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/v8flags/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/validate-npm-package-license/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/value-or-function/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/velocity-animate/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/vinyl-fs/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/vinyl-sourcemap/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/vinyl-sourcemaps-apply/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/vinyl/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/vm-browserify/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/watchpack/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/webpack-cli/node_modules/supports-color/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/webpack-cli/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/webpack-sources/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/webpack/node_modules/tapable/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/webpack/node_modules/webpack-sources/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/webpack/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/which-module/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/which/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/window-size/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/worker-farm/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/wrap-ansi/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/wrappy/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/ws/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/xtend/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/y18n/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/yallist/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/yargs-parser/node_modules/camelcase/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/yargs-parser/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/yargs/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/yargs/node_modules/cliui/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/yargs/node_modules/find-up/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/yargs/node_modules/invert-kv/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/yargs/node_modules/is-fullwidth-code-point/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/yargs/node_modules/lcid/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/yargs/node_modules/locate-path/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/yargs/node_modules/os-locale/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/yargs/node_modules/p-limit/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/yargs/node_modules/p-locate/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/yargs/node_modules/p-try/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/yargs/node_modules/string-width/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/yargs/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/yargs/node_modules/y18n/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/yargs/package.json" />
-      <path value="$PROJECT_DIR$/themes/sagiri/node_modules/zoom-image/package.json" />
       <path value="$PROJECT_DIR$/themes/sagiri/package.json" />
       <path value="$PROJECT_DIR$/themes/sagiri/source/lib/velocity-animate/package.json" />
     </packageJsonPaths>
@@ -1150,52 +255,28 @@
     <option name="width" value="1350" />
     <option name="height" value="685" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="lanme-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lanme-blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lanme-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lanme-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lanme-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lanme-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="scaffolds" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lanme-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lanme-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lanme-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lanme-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lanme-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lanme-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="sagiri" type="462c0819:PsiDirectoryNode" />
+              <item name="lanme2019.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lanme2019.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1206,11 +287,11 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hexo-blog-yearito" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1291,11 +372,12 @@
       <workItem from="1558953274618" duration="733000" />
       <workItem from="1559096386789" duration="11046000" />
       <workItem from="1559183115466" duration="214000" />
+      <workItem from="1559184040802" duration="1060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42936000" />
+    <option name="totallyTimeSpent" value="43996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1314,7 +396,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4002954" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19235925" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19504021" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1421,9 +503,7 @@
     <entry file="file://$PROJECT_DIR$/themes/sagiri/.hound.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/db.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/db.json" />
     <entry file="file://$PROJECT_DIR$/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/themes/sagiri/source/js/sagiri.min.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1435,13 +515,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/hexo/lib/theme/processors/view.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/hexo/lib/theme/processors/view.js" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1452,28 +526,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yarn-error.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/yarn-error.log" />
     <entry file="file://$PROJECT_DIR$/source/_posts/sss.md" />
     <entry file="file://$PROJECT_DIR$/source/CNAME">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/about.md" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yarn.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15414">
@@ -1482,18 +540,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/hello-world.md" />
-    <entry file="file://$PROJECT_DIR$/public/CNAME">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/baidusitemap.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/search.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/atom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/CNAME" />
+    <entry file="file://$PROJECT_DIR$/public/baidusitemap.xml" />
+    <entry file="file://$PROJECT_DIR$/public/search.xml" />
+    <entry file="file://$PROJECT_DIR$/public/atom.xml" />
     <entry file="file://$PROJECT_DIR$/source/404/index.md" />
     <entry file="file://$PROJECT_DIR$/source/_posts/note.java" />
     <entry file="file://$PROJECT_DIR$/source/_posts/hexo-theme-beautify.md" />
@@ -1602,25 +652,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$PROJECT_DIR$/public/index.html" />
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <folding>
-            <element signature="e#8458#8465#0" expanded="true" />
-            <element signature="e#11081#11088#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-211">
+          <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/sagiri/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378" />
+        <state relative-caret-position="294">
+          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+        <state relative-caret-position="314">
+          <caret line="30" column="33" selection-start-line="29" selection-start-column="2" selection-end-line="30" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" />
         </state>
       </provider>
     </entry>
