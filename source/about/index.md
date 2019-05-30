@@ -1,6 +1,5 @@
 ---
-title: about
-date: 2019-05-28 21:24:58
-disallow: true
-comments: true
+title: 关于我
+date: 2019-05-29 11:52:47
+type: about
 ---
