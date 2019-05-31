@@ -5,7 +5,8 @@
   "scripts": {
     "deploy": "hexo clean && hexo g -d",
     "start": "hexo clean && hexo g && hexo s  --debug",
-    "push": "git add .  &&  git pull && git commit -m 'post' &&  git push -u origin sagiri"
+    "push": "git add .  &&  git pull && git commit -m 'post' &&  git push -u origin sagiri",
+    "all": "yarn push && yarn deploy"
   },
   "hexo": {
     "version": "3.8.0"

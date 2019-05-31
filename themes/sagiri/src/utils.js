@@ -2,7 +2,7 @@
 
 NexT.utils = NexT.$u = {
 
-  /**
+/**
    * Wrap images with fancybox support.
    */
   wrapImageWithFancyBox: function() {
@@ -296,6 +296,10 @@ NexT.utils = NexT.$u = {
 };
 
 $(document).ready(function() {
+
+
+
+
 
   function wrapTable() {
     $('table').not('.gist table').wrap('<div class="table-container"></div>');
