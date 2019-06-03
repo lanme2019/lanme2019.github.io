@@ -11,19 +11,19 @@
 // });
 
 
-// /* 回到顶部或底部按钮 */
-// $(function() {
-//
-//   $(".menu-item a").click(function() {
-//
-//
-//     $("html, body").animate({
-//       scrollTop: $(".main").position().top - 60
-//     }, 500);
-//
-//
-//   });
-// });
+/* 回到顶部或底部按钮 */
+$(function() {
+
+  $(".menu-item a").click(function() {
+
+
+    $("html, body").animate({
+      scrollTop: $(".main").position().top - 60
+    }, 500);
+
+
+  });
+});
 
 // $(function() {
 //     $("html, body").animate({
