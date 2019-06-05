@@ -125,7 +125,7 @@ hexo 的 deploy  只能部署静态资源到 git 仓库  如果我们的主题�
 - 在本地项目目录下  
 ```shell
 git remote add origin git@github.com:lanme2019/lanme.git
-git push -u origin master
+git push -u origin sagiri
 ```
 
 
