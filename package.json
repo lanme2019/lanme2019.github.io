@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "deploy": "hexo clean && hexo g -d",
-    "start": "hexo clean && hexo g && hexo s  --debug",
+    "start": "hexo clean && hexo g && hexo s --p 4300 --debug",
     "push": "git add .  &&  git pull && git commit -m 'post' &&  git push -u origin sagiri",
     "all": "yarn push && yarn deploy"
   },

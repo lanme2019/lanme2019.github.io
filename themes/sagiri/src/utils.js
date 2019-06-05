@@ -5,49 +5,41 @@ NexT.utils = NexT.$u = {
 /**
    * Wrap images with fancybox support.
    */
-  wrapImageWithFancyBox: function() {
-    $('.content img')
-      .not(':hidden')
-      .each(function() {
-        var $image = $(this);
-        var imageTitle = $image.attr('title') || $image.attr('alt');
-        var $imageWrapLink = $image.parent('a');
+wrapImageWithFancyBox: function() {
+  $('.content img')
+    .not('[hidden]')
+    .not('.group-picture img, .post-gallery img')
+    .each(function() {
+      var $image = $(this);
+      var imageTitle = $image.attr('title');
+      var $imageWrapLink = $image.parent('a');
+      if ($imageWrapLink.length < 1) {
+        var imageLink = $image.attr('data-original') ? this.getAttribute('data-original') : this.getAttribute('src');
+        $imageWrapLink = $image.wrap('<a data-fancybox="group" href="' + imageLink + '"></a>').parent('a');
+      }
 
-        if ($imageWrapLink.length < 1) {
-          var imageLink = $image.attr('data-original') || $image.attr('src');
-          $imageWrapLink = $image.wrap('<a class="fancybox fancybox.image" href="' + imageLink + '" itemscope itemtype="http://schema.org/ImageObject" itemprop="url"></a>').parent('a');
-          if ($image.is('.post-gallery img')) {
-            $imageWrapLink.addClass('post-gallery-img');
-            $imageWrapLink.attr('data-fancybox', 'gallery').attr('rel', 'gallery');
-          }
-          else if ($image.is('.group-picture img')) {
-            $imageWrapLink.attr('data-fancybox', 'group').attr('rel', 'group');
-          }
-          else {
-            $imageWrapLink.attr('data-fancybox', 'default').attr('rel', 'default');
-          }
-        }
+      $imageWrapLink.addClass('fancybox fancybox.image');
+      $imageWrapLink.attr('rel', 'group');
 
-        if (imageTitle) {
-          $imageWrapLink.append('<p class="image-caption">' + imageTitle + '</p>');
-          // Make sure img title tag will show correctly in fancybox
-          $imageWrapLink.attr('title', imageTitle).attr('data-caption', imageTitle);
-        }
-      });
+      if (imageTitle) {
+        $imageWrapLink.append('<p class="image-caption">' + imageTitle + '</p>');
 
-    $('.fancybox').fancybox({
-      loop: true,
-      helpers: {
-        overlay: {
-          locked: false
-        }
+        //make sure img title tag will show correctly in fancybox
+        $imageWrapLink.attr('title', imageTitle);
       }
     });
-  },
+
+  $('.fancybox').fancybox({
+    helpers: {
+      overlay: {
+        locked: false
+      }
+    }
+  });
+},
 
   lazyLoadPostsImages: function() {
     $('#posts').find('img').lazyload({
-      //placeholder: '/images/loading.gif',
       effect   : 'fadeIn',
       threshold: 0
     });
