@@ -141,7 +141,8 @@ links:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: /images/me.jpg #/images/timg3.jpg
+#avatar: /images/me.jpg #/images/timg3.jpg
+avatar: /images/02.jpg #/images/timg3.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -264,7 +265,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night eighties
+highlight_theme: normal
 
 
 # ---------------------------------------------------------------
@@ -803,7 +804,8 @@ images: images
 header_bg: /images/header-darling4.jpg
 
 card:
-  avatar: /images/me.jpg #/images/timg3.jpg
+#  avatar: /images/me.jpg #/images/timg3.jpg
+  avatar: /images/02.jpg #/images/timg3.jpg
   name: <span style="opacity:.2;"></span>Lanme2019
   description: 你能抓到我么？
 
@@ -834,7 +836,7 @@ footer:
 
 online_api: #wss://api.diygod.me/online/
 
-description: <span>写代码是热爱，</span><span>写到世界充满爱！</span>
+description: <span>做一个会念诗的程序员</span><span> </span>
 
 # Theme version
 version: 0.0.42
