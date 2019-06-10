@@ -801,7 +801,8 @@ css: css
 js: js
 images: images
 
-header_bg: /images/header-darling4.jpg
+#header_bg: /images/header-darling4.jpg
+header_bg: /images/darling.jpg
 
 card:
 #  avatar: /images/me.jpg #/images/timg3.jpg
