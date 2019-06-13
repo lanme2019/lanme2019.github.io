@@ -9,3 +9,4 @@
 - 不要因为过短缺少可读性 
 - 最好使用统一的规范来设计 Key，比如”object-type:id:attr”，以这一规范设计出的 Key 可能是”user:1000″或”comment:1234:reply-to”
 - 最大key长 512M  (超過1024字节就不好了)
+
