@@ -1,4 +1,14 @@
+title: 面试知识梳理
+date: 2019-06-05 8:00:00
+tags: java 
+categories:
+- 面试
+---
 # 面试知识梳理
+<!--more-->
+
+
+
 ## **java方向**
 ### 多线程
 ### jvm

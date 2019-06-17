@@ -802,11 +802,10 @@ js: js
 images: images
 
 header_bg: /images/header-darling4.jpg
-#header_bg: /images/darling.jpg
+#header_bg: /images/timg.jpg
 
 card:
-#  avatar: /images/me.jpg #/images/timg3.jpg
-  avatar: /images/02.jpg #/images/timg3.jpg
+  avatar: /images/02-1.jpg
   name: <span style="opacity:.2;"></span>Lanme2019
   description: 你能抓到我么？
 
