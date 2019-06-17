@@ -34,3 +34,9 @@ cache:
   yarn: true
   directories:
     - node_modules
+
+notifications:
+  email:
+    recipients:
+      - 809538476@qq.com
+    on_success: always
