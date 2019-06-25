@@ -1,4 +1,13 @@
+---
+title: redis笔记
+date: 2019-06-05 8:00:00
+tags: redis
+categories:
+- 面试
+---
+
 # redis 笔记
+<!--more-->
 - 单线程 
 - 非阻塞IO(NIO)
 - 多种数据结构 字符串 hash  list  linked 位图  Hyperloglogs 
