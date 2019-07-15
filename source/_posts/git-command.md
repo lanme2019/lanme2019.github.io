@@ -3,7 +3,7 @@ title:  git 命令
 date: 2019-06-24 8:00:00
 tags:  git 
 categories:
-- 开发
+- 灵魂向导
 ---
 # 常用GIT命令汇总
 <!--more-->

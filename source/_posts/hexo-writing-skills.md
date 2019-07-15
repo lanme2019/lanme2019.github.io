@@ -2,9 +2,7 @@
 title: Hexo搭建个人博客系列：写作技巧篇
 date: 2018-11-20 20:09:52
 tags: Hexo1
-categories:
-- 技术
-- 博客
+categories: 灵魂向导
 ---
 
 ![题图](http://yearito-1256884783.image.myqcloud.com/thumbnails/mist.jpg!thumbnail "Photo by Henri Prestes")

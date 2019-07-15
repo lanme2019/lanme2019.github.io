@@ -142,7 +142,7 @@ links:
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
 #avatar: /images/me.jpg #/images/timg3.jpg
-avatar: /images/02.jpg #/images/timg3.jpg
+avatar: /images/daling.jpeg #/images/timg3.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -805,7 +805,7 @@ header_bg: /images/header-darling4.jpg
 #header_bg: /images/timg.jpg
 
 card:
-  avatar: /images/02-1.jpg
+  avatar: /images/daling2.jpeg
   name: <span style="opacity:.2;"></span>Lanme2019
   description: 你能抓到我么？
 
@@ -836,7 +836,7 @@ footer:
 
 online_api: #wss://api.diygod.me/online/
 
-description: <span>做一个会念诗的程序员</span><span> </span>
+description: <span>改革春风吹满地，</span><span>今天 coding 要努力！</span>
 
 # Theme version
 version: 0.0.42

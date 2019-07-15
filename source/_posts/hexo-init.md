@@ -3,14 +3,14 @@ title: 使用Hexo搭建个人博客01 -- 基础建站篇
 date: 2019-06-05 8:00:00
 tags: Hexo 
 categories:
-- 技术
-- 博客
+- 灵魂向导
+
 ---
 是一种用来消息聚合的格式规范
 <!--more-->
 # 环境准备
 - [Node.js](<https://nodejs.org/zh-cn/>)  (6.9版本及以上)
-- [git](<https://git-scm.com/>)
+- [git](<https://git-scm.com/>) 
 
 {% note info %}
  Hexo 依赖于 Node.js 和 git，所以在安装 Hexo 之前先确保已安装了这两项应用。
