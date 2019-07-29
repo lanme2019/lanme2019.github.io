@@ -12,7 +12,7 @@ language: zh-Hans
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.luanmingyi.cn
+url: https://luanmingyi.cn
 root: /
 permalink: :title/
 permalink_defaults:
@@ -88,8 +88,8 @@ theme: sagiri
 deploy:
   type: git
   repo:
-        github: git@github.com:lanme2019/lanme2019.github.io.git
-        coding: git@git.dev.tencent.com:lanme2019/lanme2019.coding.me.git
+#        github: git@github.com:lanme2019/lanme2019.github.io.git
+#        coding: git@git.dev.tencent.com:lanme2019/lanme2019.coding.me.git
         repo: root@139.199.127.63:~/lanme-blog/hexo.git
   branch: master
 
