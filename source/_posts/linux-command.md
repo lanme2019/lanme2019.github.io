@@ -1,9 +1,9 @@
 ---
 title: linux常用命令汇总
 date: 2019-06-05 8:00:00
-tags: linux 
+tags: Linux 
 categories:
-- 灵魂向导
+- 学习笔记
 ---
 # linux命令
 <!--more-->

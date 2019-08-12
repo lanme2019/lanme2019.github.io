@@ -8,7 +8,7 @@ comments: false
 
 
 
-hey, 欢迎来到 lanme 的后花园
+hey, 欢迎来到 Lanme 的后花园
 
 我会在这里记录下我的学习笔记 , 也会分享一些生活趣事  
 
