@@ -57,7 +57,7 @@
                   <i class="fa fa-thumb-tack"></i>
                 </span>
               {% endif %}
-              <a class="post-title-link post-title-link-external" target="_blank" href="{{ url_for(post.link) }}#main" itemprop="url">
+              <a class="post-title-link post-title-link-external" target="_blank" href="{{ url_for(post.link) }}" itemprop="url">
                 {{ post.title or post.link }}
                 <i class="fa fa-external-link"></i>
               </a>
@@ -68,7 +68,7 @@
                     <i class="fa fa-thumb-tack"></i>
                   </span>
                 {% endif %}
-                <a class="post-title-link" href="{{ url_for(post.path) }}#main" itemprop="url">{#
+                <a class="post-title-link" href="{{ url_for(post.path) }}" itemprop="url">{#
                 #}{{ post.title | default(__('post.untitled'))}}{#
               #}</a>{#
             #}{% else %}{{ post.title }}{% endif %}{#
@@ -210,19 +210,20 @@
             {% endif %}
           {% endif %}
 
-           {# LeanCould PageView #}
-               {% if theme.leancloud_visitors.enable %}
-                  <span id="{{ url_for(post.path) }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
-                    <span class="post-meta-divider">•</span>
-                    <span class="post-meta-item-icon">
-                      <i class="fa fa-eye"></i>
-                    </span>
-                    {% if theme.post_meta.item_text %}
-                      <span class="post-meta-item-text">{{__('post.visitors')}}</span>
-                    {% endif %}
-                      <span class="leancloud-visitors-count"></span>
-                  </span>
+          {# LeanCould PageView #}
+          {% if theme.leancloud_visitors.enable %}
+             <span id="{{ url_for(post.path) }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
+               <span class="post-meta-divider">•</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               {% if theme.post_meta.item_text %}
+                 <span class="post-meta-item-text">被</span>
                {% endif %}
+                 <span class="leancloud-visitors-count"></span>
+                 <span class="post-meta-item-text">人看爆</span>
+             </span>
+          {% endif %}
 
           {% if not is_index and theme.busuanzi_count.enable and theme.busuanzi_count.page_pv %}
             <span class="post-meta-divider">•</span>
@@ -279,7 +280,7 @@
           {{ post.excerpt }}
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="{{ url_for(post.path) }}{% if theme.scroll_to_more %}#main{% endif %}" rel="contents">
+            <a class="btn" href="{{ url_for(post.path) }}{% if theme.scroll_to_more %}#{{ __('post.more') }}{% endif %}" rel="contents">
               {{ __('post.read_more') }} &raquo;
             </a>
           </div>
@@ -290,7 +291,7 @@
           {% if content.length > theme.auto_excerpt.length %}...{% endif %}
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="{{ url_for(post.path) }}{% if theme.scroll_to_more %}#main{% endif %}" rel="contents">
+            <a class="btn" href="{{ url_for(post.path) }}{% if theme.scroll_to_more %}#{{ __('post.more') }}{% endif %}" rel="contents">
               {{ __('post.read_more') }} &raquo;
             </a>
           </div>
@@ -301,7 +302,7 @@
           {% else %}
             {{ post.content }}
             <div class="post-button text-center">
-              <a class="btn" href="{{ url_for(post.path) }}{% if theme.scroll_to_more %}#main{% endif %}" rel="contents">
+              <a class="btn" href="{{ url_for(post.path) }}{% if theme.scroll_to_more %}#{{ __('post.more') }}{% endif %}" rel="contents">
                 {{ __('post.read_more') }} &raquo;
               </a>
             </div>

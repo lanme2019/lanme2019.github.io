@@ -19,18 +19,18 @@ $(document).on('pjax:start', function () {
       scrollTop: $('.main').position().top - 60
     }, 500);
 
-    // if (window.dplayers) {
-    //   for (let i = 0; i < window.dplayers.length; i++) {
-    //       window.dplayers[i].destroy();
-    //   }
-    //   window.dplayers = [];
-    // }
-    // if (window.aplayers) {
-    //   for (let i = 0; i < window.aplayers.length; i++) {
-    //     window.aplayers[i].destroy();
-    //   }
-    //   window.aplayers = [];
-    // }
+    if (window.dplayers) {
+      for (let i = 0; i < window.dplayers.length; i++) {
+          window.dplayers[i].destroy();
+      }
+      window.dplayers = [];
+    }
+    if (window.aplayers) {
+      for (let i = 0; i < window.aplayers.length; i++) {
+        window.aplayers[i].destroy();
+      }
+      window.aplayers = [];
+    }
 });
 
 $(document).on('pjax:end', function () {
@@ -39,7 +39,7 @@ $(document).on('pjax:end', function () {
     require('./leancloud')();
     require('./share')();
     require('./pisces')();
-    // require('./zoom')();
+    require('./zoom')();
     window.originTitle = document.title;
 
     if (ga) {

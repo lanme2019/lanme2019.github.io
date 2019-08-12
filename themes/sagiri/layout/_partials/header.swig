@@ -6,7 +6,7 @@
       {% for name, path in theme.menu %}
         {% set itemName = name.toLowerCase() %}
         <li class="menu-item menu-item-{{ itemName | replace(' ', '-') }}">
-          <a href="{{ url_for(path.split('||')[0]) | trim }}#main" rel="section"{% if path.split('||')[2] %} target="_blank"{% endif %}>
+          <a href="{{ url_for(path.split('||')[0]) | trim }}" rel="section"{% if path.split('||')[2] %} target="_blank"{% endif %}>
             {% if theme.menu_icons.enable %}
               <i class="menu-item-icon fa fa-fw fa-{{ path.split('||')[1] | trim | default('question-circle') }}"></i> <br />
             {% endif %}
@@ -43,7 +43,7 @@
       {% endif %}
       <li class="menu-item search">
           <form class="search-form">
-            <input name="keyword" type="text" class="search-input" placeholder="搜索">
+            <input name="keyword" type="text" class="search-input" placeholder="站内搜索">
             <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
           </form>
       </li>

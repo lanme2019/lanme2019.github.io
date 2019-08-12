@@ -19,11 +19,10 @@ pre, code { font-family: $code-font-family; }
 code {
   padding: 2px 4px;
   word-wrap: break-word;
-  color: #fc6423;
-  //background: $code-background;
+  color: $code-foreground;
+  background: $code-background;
   border-radius: $code-border-radius;
   font-size $code-font-size;
-
 }
 
 pre {
@@ -64,7 +63,7 @@ pre {
     font-size: 1em;
     color: $highlight-foreground;
     line-height: 1em;
-    margin: 0.5em 2.2em;
+    margin-bottom: 1em;
 
     a {
       float: right;

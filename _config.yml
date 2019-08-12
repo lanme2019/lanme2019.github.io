@@ -1,18 +1,17 @@
-
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Lanme Home
+title: Hi, DIYgod
 subtitle:
-description: bigdata | 后端萌新  | 开源
-author: Lanme2019
+description: 人气网红 | 前端萌新 | 有猫 | 开源
+author: DIYgod
 language: zh-Hans
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://luanmingyi.cn
+url: https://diygod.me
 root: /
 permalink: :title/
 permalink_defaults:
@@ -87,10 +86,7 @@ theme: sagiri
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo:
-#        github: git@github.com:lanme2019/lanme2019.github.io.git
-#        coding: git@git.dev.tencent.com:lanme2019/lanme2019.coding.me.git
-        repo: root@139.199.127.63:~/lanme-blog/hexo.git
+  repo: git@github.com:DIYgod/diygod.me.git
   branch: master
 
 search:
@@ -104,5 +100,3 @@ js_minifier:
 
 image_minifier:
   enable: false
-
-

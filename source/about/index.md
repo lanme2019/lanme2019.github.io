@@ -1,21 +1,18 @@
 ---
-title: 关于我
-date: 2019-05-29 11:52:47
-type: about
-comments: false
-
+title: 关于
+id: 933
+date: 2014-06-19 01:53:52
+type: "about"
 ---
 
+![](/images/about.jpg)
 
+人气网红 | 前端小萌新 | bilibili | 有猫 | 开源
 
-hey, 欢迎来到 Lanme 的后花园
+抓住我： [GitHub](https://github.com/DIYgod) | [Twitter](https://twitter.com/DIYgod) | [QQ 群](https://wj.qq.com/s2/3318631/2970) | [Telegram chanel](https://t.me/awesomeDIYgod) | [更多](https://www.anotherhome.net/3163)
 
-我会在这里记录下我的学习笔记 , 也会分享一些生活趣事  
+&nbsp;
 
- 🎂 🍰
+博客建于2014年2月9日
 
-
-
-
-  
-     
+2017年11月20日从 WordPress 换到 Hexo，新的开始！

@@ -1,9 +1,11 @@
 // CSS Style Guide: http://codeguide.co/#css
 
 
-$scheme = hexo-config('scheme') ? hexo-config('scheme'):'Muse';
+
+$scheme    = hexo-config('scheme') ? hexo-config('scheme') : 'Muse';
 $variables = base $scheme custom;
-$mixins = base $scheme custom;
+$mixins    = base $scheme custom;
+
 
 
 // Variables Layer
@@ -16,6 +18,7 @@ for $variable in $variables
 // --------------------------------------------------
 for $mixin in $mixins
   @import "_mixins/" + $mixin;
+
 
 
 // Common Layer
@@ -36,24 +39,27 @@ for $mixin in $mixins
 @import "_schemes/" + $scheme;
 
 
+
 // Custom Layer
 // --------------------------------------------------
 @import "_custom/custom";
 
+@import "../../node_modules/nprogress/nprogress.css"
 
 #nprogress .bar {
   background: #97dffd;
 }
 
-//.post-body .aplayer {
-//  margin-bottom: 30px;
-//}
+.post-body .aplayer {
+  margin-bottom: 30px;
+}
 
-@import "../../../../node_modules/nprogress/nprogress.css"
-@import "../../../../node_modules/balloon-css/balloon.css"
+@import "../../node_modules/balloon-css/balloon.css"
 
-//@import "../../../../node_modules/zoom-image/css/zoom-image.css"
-//@import "../../../../node_modules/disqusjs/dist/disqusjs.css"
-//@import "../../../../node_modules/aplayer/dist/APlayer.min.css"
-//@import "../../../../node_modules/dplayer/dist/DPlayer.min.css"
+@import "../../node_modules/dplayer/dist/DPlayer.min.css"
 
+@import "../../node_modules/aplayer/dist/APlayer.min.css"
+
+@import "../../node_modules/zoom-image/css/zoom-image.css"
+
+@import "../../node_modules/disqusjs/dist/disqusjs.css"

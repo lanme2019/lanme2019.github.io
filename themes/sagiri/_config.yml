@@ -20,24 +20,24 @@ override: false
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
   visibilitychange: true
-  narmal: /images/favicon.ico
-  hidden: /images/failure.ico
+  narmal: /favicon.ico
+  hidden: /failure.ico
   show_text: (/≧▽≦/)咦！又好了！
   hide_text: (●—●)喔哟，崩溃啦！
-  apple_touch_icon: /images/DIYgod-180x180.jpg
-  safari_pinned_tab: /images/DIYgod.jpg
-  #android_manifest: /images/manifest.json
+  apple_touch_icon: /apple-touch-icon.png
+  safari_pinned_tab: /safari-pinned-tab.svg
+  android_manifest: /site.webmanifest
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "Lanme,blog"
+keywords: "DIYgod,blog"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
 rss:
 
-emailfeed: #http://eepurl.com/dEnzz1
+emailfeed: http://eepurl.com/dEnzz1
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -67,31 +67,29 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   首页: / || home
-#  抓到我: javascript:; || sign-language
-#  实验室: javascript:; || flask
+  抓到我: javascript:; || sign-language
+  实验室: javascript:; || flask
   归档: /archives/ || archive
-  分类: /categories/ || th
-  标签: /tags/ || tags
-#  投喂: /donate/ || cutlery
-#  后宫: /friends/ || mars
-#  留言板: /message/ || pencil
-  关于: /about/ || rocket
+  投喂: /donate/ || cutlery
+  后宫: /friends/ || mars
+  留言板: /message/ || pencil
+  # 关于: /about/ || rocket
 
 submenu:
-#  抓到我:
-#    GitHub: https://github.com/DIYgod
-#    Twitter: https://twitter.com/DIYgod
-#    QQ 群: https://getrbq.com
-#    Telegram 频道: https://t.me/awesomeDIYgod
-#    Telegram 群: https://t.me/prpr233
-#  实验室:
-#    RSSHub: https://docs.rsshub.app/
-#    DPlayer: http://dplayer.js.org/
-#    APlayer: https://aplayer.js.org/
-#    Oneindex: https://pan.prprpr.me/
-#    TT RSS: https://rss.diygod.me/
-#    监控: https://status.diygod.me/
-#    NAS: https://nas.diygod.me:2222/
+  抓到我:
+    GitHub: https://github.com/DIYgod
+    Twitter: https://twitter.com/DIYgod
+    QQ 群: https://wj.qq.com/s2/3318631/2970
+    Telegram 频道: https://t.me/awesomeDIYgod
+    Telegram 群: https://t.me/prpr233
+  实验室:
+    RSSHub: https://docs.rsshub.app/
+    DPlayer: http://dplayer.js.org/
+    APlayer: https://aplayer.js.org/
+    Oneindex: https://pan.prprpr.me/
+    TT RSS: https://rss.diygod.me/
+    监控: https://status.diygod.me/
+    NAS: https://nas.diygod.me:2222/
 
 # Enable/Disable menu icons.
 menu_icons:
@@ -119,11 +117,11 @@ scheme: Pisces
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/lanme2019 || <i class="fa fa-fw fa-github"></i>
-  Twitter: https://twitter.com/lanme2019 || <i class="fa fa-fw fa-twitter"></i>
-#  QQ 群: https://getrbq.com || <i class="fa fa-fw fa-qq"></i>
-#  Telegram 频道: https://t.me/awesomeDIYgod || <i class="fa fa-fw fa-telegram"></i>
-#  Telegram 群: https://t.me/prpr233 || <i class="fa fa-fw fa-telegram"></i>
+  GitHub: https://github.com/DIYgod || <i class="fa fa-fw fa-github"></i>
+  Twitter: https://twitter.com/DIYgod || <i class="fa fa-fw fa-twitter"></i>
+  QQ 群: https://wj.qq.com/s2/3318631/2970 || <i class="fa fa-fw fa-qq"></i>
+  Telegram 频道: https://t.me/awesomeDIYgod || <i class="fa fa-fw fa-telegram"></i>
+  Telegram 群: https://t.me/prpr233 || <i class="fa fa-fw fa-telegram"></i>
 
 social_icons:
   enable: true
@@ -136,13 +134,74 @@ links_title: Links
 links_layout: block
 #links_layout: inline
 links:
+  A_of_All: https://blog.aofall.com/ || /images/link/A_of_All.jpeg || 待我归来.
+  Aaron: https://aoaoao.me/ || /images/link/Aaron.png || 树洞
+  Balthild: https://qaq.cat/ || /images/link/Balthild.jpg || 轻歌
+  Cee: http://blog.cee.moe/ || /images/link/Cee.jpeg || 九五小鮮肉，大四出國狗
+  FGHRSH: https://www.fghrsh.net/ || /images/link/FGHRSH.jpg || FGHRSH 的博客
+  Fly: https://www.fly3949.com/ || /images/link/Fly.jpg || 喜欢各种瞎折腾
+  freejishu: http://www.freejishu.com/ || /images/link/freejishu.jpg || A New World
+  Jimmy66: http://jimmy66.com/ || /images/link/Jimmy66.jpeg || 一个不断成长，学习着的BMEer
+  journey.ad: https://imjad.cn/ || /images/link/imjad.jpeg || 浊以静之徐清
+  kn007: https://kn007.net/ || /images/link/kn007.jpeg || 这家伙很懒，什么也没有留下
+  Zankyo: https://zankyo.cc/ || /images/link/Zankyo.jpg || I Stay Alive.
+  liwanglin12: https://blog.lwl12.com/ || /images/link/lwl.jpeg || 我老婆
+  METO: https://i-meto.com/ || /images/link/meto.jpg || 萨摩公园
+  Micooz: https://apporz.com/ || /images/link/Micooz.png || FullStack Engineer
+  Mokeyjay: http://www.mokeyjay.com/ || /images/link/Mokeyjay.jpg || Just a PHP Noob
+  MonkeyFigaro: http://monkeyfigaro.cn/ || /images/link/MonkeyFigaro.jpg || 脸盲｜路痴｜智障｜拖延症｜LGBT｜非单身
+  myhloli: http://myhloli.com/ || /images/link/myhloli.jpeg || 爱生活，爱萝莉
+  Showfom: https://sb.sb/ || /images/link/Showfom.jpg || 烧饼博客是专注于服务器教程，专业域名投资和见解的博客
+  TyzuaL: https://tyzual.com/ || /images/link/TyzuaL.jpg || 一只潜伏在企鹅群中的小喵
+  u3u: https://quq.cat/ || /images/link/u3u.jpeg || 陪伴是最长情的告白
+  Xcat Liu: http://blog.xcatliu.com/ || /images/link/xcatliu.png || A cat who writes code
+  zchen9: http://www.chen9.info/ || /images/link/zchen9.jpeg || 离用户最近的艺术家
+  ZGQ: http://blog.izgq.net/ || /images/link/ZGQ.jpeg || 高三党一枚
+  zkl2333: http://www.zkl2333.com/ || /images/link/zkl2333.jpeg || zkl2333的博客
+  一曲长歌辞烟雨: https://ls12.me/ || /images/link/%E6%B5%81%E8%A7%9E%E6%9B%B2%E6%B0%B4.png || 相逢千里负烟霞。空山人去远，回首落梅花
+  佳佳: http://luojia.me/ || /images/link/%E4%BD%B3%E4%BD%B3.jpg || 跨次元日常卖萌
+  千千: https://www.dreamwings.cn/ || /images/link/%E5%8D%83%E5%8D%83.jpg || 烟花、绽放之后只剩黑暗
+  变态鹅: https://conoha.vip/ || /images/link/skipper.jpg || 本鹅最喜欢萌妹纸了！
+  吟梦: https://kirainmoe.com/ || /images/link/%E5%90%9F%E6%A2%A6.jpeg || 这家伙很懒，什么也没有留下
+  地瓜: https://digua.me/ || /images/link/%E5%9C%B0%E7%93%9C.png || 总有一天，咱也要和菊苣一起玩耍！
+  夜绫千裕: https://yecl.net/ || /images/link/%E5%A4%9C%E7%BB%AB%E5%8D%83%E8%A3%95.jpeg || 醒后无所见，耳旁昨日声
+  大袋鼠: http://muguang.me/ || /images/link/%E5%A4%A7%E8%A2%8B%E9%BC%A0.jpg || 这家伙很懒，什么也没有留下
+  小霖: https://xiaolin.in/ || /images/link/%E5%B0%8F%E9%9C%96.png || 岁月静好,现世安稳
+  悠然RE: https://blog.mitsuha.space/ || /images/link/%E6%82%A0%E7%84%B6RE.jpg || 萌萌噠傲嬌妹紙
+  晚风映浮云: https://mxd.moe/ || /images/link/%E6%99%9A%E9%A3%8E%E6%98%A0%E6%B5%AE%E4%BA%91.jpeg || 死宅|渣渣前端|好奇心和猫一样|有强迫症|钟爱火狐|chrome黑|情伤几乎为0|⑨控|萝莉控|已脱团
+  笈川可可: https://blog.0xbbc.com/ || /images/link/2016-08-04_0xBBC.png || a.k.a 神楽坂碧玺，某可爱的蓝孩纸程序猿
+  羡辙: http://zhangwenli.com/ || /images/link/%E7%BE%A1%E8%BE%99.jpeg || 羡辙，字子免，号灵石笠翁
+  音風: https://www.otokaze.cn/ || /images/link/%E9%9F%B3%E9%A2%A8.jpg || 一介布衣的自我修养
+  小白-白: https://www.fczbl.vip || /images/link/FCZBL.jpg || 咦？我是谁？我为什么会在这？
+  Sonic853: http://blog.853lab.com || /images/link/Sonic853.png || 虚拟人物 天王星号侦察船
+  保罗: https://paugram.com/ || /images/link/%E4%BF%9D%E7%BD%97.jpg || 保罗的小宇宙
+  Giuem: http://www.giuem.com/ || /images/link/giuem.jpg || BiuBiuBiu~
+  Mashiro: https://2heng.xin || /images/link/Mashiro.jpeg || 樱花庄的白猫
+  Kay: https://wwww.lvmoo.com/ || /images/link/Kay.jpeg || 我的腿让我停下，可是心却不允许我那么做。
+  Troy: https://itroy.cc/ || /images/link/Troy.jpeg || Troy的星球
+  Rex Zeng: https://www.rexskz.info/ || /images/link/RexSkz.jpeg || 音游狗、安全狗、攻城狮、业余设计师、段子手、苦学日语的少年。
+  Sora: https://kotori.net/ || /images/link/Sora.jpeg || 曾经沉迷LL无法自拔，目前依旧是一个LL真爱粉，最喜欢的是小鸟酱！
+  兔子鲜笙: https://blog.tuzi.moe/ || /images/link/兔子鲜笙.jpeg || 要在不同的地方彼此照亮
+  零件: https://nekosc.com/ || /images/link/零件.jpg || Tech Otakus Save The World
+  JiuMeng: https://www.ohyhello.com/ || /images/link/JiuMeng.jpg || 虚拟形象的萝莉
+  亿林: https://minemine.cc/ || /images/link/亿林.jpeg || 爱迪生说过：“要把BOSS打倒就要准备足够的等级。”
+  Little_Qiu: https://www.littleqiu.net/ || /images/link/Little_Qiu.jpg || “愿每个人都能被这个世界温柔以待” 可惜这只是个无法实现的愿望。
+  Shawn: https://shawnzeng.com || /images/link/Shawn.jpg || 中二少年，音乐发烧友，爱喝毒鸡汤，听电台，爱打炉石(战网id：咱们棱多丨鸡蛋饼#5161)，喜欢慢跑、散步，偶尔看电影、小说。
+  Kirito: https://www.ixh.me/ || /images/link/Kirito.jpg || 手中有剑，方能保护心里珍惜之人
+  Jrotty: https://qqdie.com/ || /images/link/Jrotty.png || QQ爹の博客
+  折影轻梦: https://i.chainwon.com/ || /images/link/折影轻梦.jpeg || Entorevolution
+  戴兜: https://daidr.me/ || /images/link/戴兜.png || 在迷失中寻找自我
+  月宅酱: https://ikmoe.com/ || /images/link/月宅酱.jpg || 嗨，这里是月宅酱。简称为月宅，月宅的虚拟人物为伪物语中的小忍。
+  Jake: https://i.jakeyu.top/ || /images/link/Jake.jpg || 再牛逼的梦想也抵不住傻逼似得坚持
+  FH云彩: https://www.yuncaioo.com/ || /images/link/FH云彩.jpg || 00后，初二狗，技术控，风云社社长，某漏气博客博主，可爱的蓝孩子
+  kookxiang: https://ikk.me/ || /images/link/kk.jpg || 不会 C# 桌面开发的 Golang 程序员不是好的绒布球（x）PHP 前端开发
   Ephen: https://ephen.me/ || /images/link/Ephen.jpg || 灰姑娘
+  SamWanng: https://samwan.ng/ || /images/link/SamWanng.png || I am an artist in my preferred fields like programming, photograph, music, design and writings.
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-#avatar: /images/me.jpg #/images/timg3.jpg
-avatar: /images/daling.jpeg #/images/timg3.jpg
+avatar: /images/DIYgod.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -231,8 +290,8 @@ post_wordcount:
 
 # Reward
 reward_comment:
-wechatpay: #/images/wechatpay.png
-alipay: #
+wechatpay: /images/wechatpay.png
+alipay: /images/alipay.png
 bitcoin:
 
 # Declare license on posts
@@ -250,7 +309,7 @@ post_copyright:
 mobile_layout_economy: false
 
 # Android Chrome header panel color ($black-deep).
-android_chrome_color: "#222"
+android_chrome_color: "#da532c"
 
 # Custom Logo.
 # !!Only available for Default Scheme currently.
@@ -352,13 +411,13 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
+  enable: true
   shortname: diygod-me
   count: false
   api: https://disqus.diygod.me/api/
   apikey: h403RnxQYBk2VylgLZwxodAtYOEL9bzgfhpcc8AZEU0EXn9cEWUoTwrgL3VB5tvj
   admin: DIYgod
-  adminLabel: 服务生
+  adminLabel: 妹抖
 
 # Hypercomments
 #hypercomments_id:
@@ -373,21 +432,13 @@ changyan:
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://github.com/xCss/Valine
-
-
 valine:
-  enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
-  appid: 5UrsL5MIa0yOmc6apq07pLJS-gzGzoHsz
-  appkey: t5Td04qmbvkbWBV8ohL4fw24
-  notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
+  enable: false
+  appid:  # your leancloud application appid
+  appkey:  # your leancloud application appkey
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
-  placeholder: 'Leave a message here' # comment box placeholder
-  avatar: mp # gravatar style
-  guest_info: nick,mail,link # custom comment header
-  pageSize: 10 # pagination size
-  language: zh-cn # language, available values: en, zh-cn
-  visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
-  comment_count: true # if false, comment count will only be displayed in post page, not in home page
+  placeholder: Comment input placeholder
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
@@ -464,7 +515,7 @@ needmoreshare2:
 #google_site_verification:
 
 # Google Analytics
-google_analytics: UA-140918478-1
+google_analytics: UA-48084758-7
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
@@ -531,15 +582,14 @@ rating:
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: true
-  app_id: 5UrsL5MIa0yOmc6apq07pLJS-gzGzoHsz
-  app_key: t5Td04qmbvkbWBV8ohL4fw24
-
+  app_id: Ti5mwFDXXbpWqeWdaydLNfOS-gzGzoHsz
+  app_key: rXpryRyVs5jlk2LAGGI1bfEd
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: ture
+  enable: false
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
@@ -548,7 +598,10 @@ busuanzi_count:
   site_pv: true
   site_pv_header: <i class="fa fa-eye"></i>
   site_pv_footer:
-
+  # custom pv span for one page only
+  page_pv: true
+  page_pv_header: <i class="fa fa-file-o"></i>
+  page_pv_footer:
 
 
 # Tencent analytics ID
@@ -577,7 +630,6 @@ calendar:
   showDeleted: false
   singleEvents: true
   maxResults: 250
-
 
 # Algolia Search
 algolia_search:
@@ -616,7 +668,7 @@ note:
   #  - modern    bs-callout new (v2-v3) alert style.
   #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
   #  - disabled  disable all CSS styles import of note tag.
-  style: flat
+  style: simple
   icons: false
   border_radius: 3
   # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
@@ -660,7 +712,7 @@ motion:
     sidebar: slideUpIn
 
 # Fancybox
-fancybox: true
+fancybox: false
 
 # Progress bar in the top during page loading.
 pace: false
@@ -700,7 +752,7 @@ canvas_sphere: false
 # alpha: The transparency of the ribbon.
 # zIndex: The display level of the ribbon.
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 100
   alpha: 0.6
   zIndex: -1
@@ -722,8 +774,8 @@ vendors:
 
   # Internal version: 2.1.5
   # See: http://fancyapps.com/fancybox/
-  fancybox: https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.js
-  fancybox_css: https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.css
+  fancybox: https://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js
+  fancybox_css: https://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css
 
   # Internal version: 1.0.6
   # See: https://github.com/ftlabs/fastclick
@@ -801,18 +853,17 @@ css: css
 js: js
 images: images
 
-header_bg: /images/header-darling4.jpg
-#header_bg: /images/timg.jpg
+header_bg: /images/header-leg.jpg
 
 card:
-  avatar: /images/daling2.jpeg
-  name: <span style="opacity:.2;"></span>Lanme2019
+  avatar: /images/card.jpg
+  name: <span style="opacity:.2;">网红</span>DIYgod
   description: 你能抓到我么？
 
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  since: 5/14/2019 12:00:00
+  since: 2/9/2014 11:30:00
 
   # Icon between year and copyright info.
   icon: user
@@ -830,16 +881,13 @@ footer:
     version: true
   # -------------------------------------------------------------
   # Any custom text can be defined here.
-  custom_text: <a href="https://github.com/lanme2019" target="_blank" rel="nofollow"> GitHub</a>提供托管服务.  <a href="http://www.google.com/analytics/" target="_blank" rel="nofollow">Google Analytics </a>提供网站统计服务. <a href="https://https://www.upyun.com/" target="_blank" rel="nofollow">又拍云 </a>提供 CDN 服务.<a href="https://www.upyun.com/" target="_blank" rel="nofollow">  <img style="width:60px;vertical-align:middle;display:inline;" src="/images/youpai.png"></a>
+  custom_text: 托管于<a href="https://github.com/" target="_blank" rel="nofollow"> GitHub</a>. <a href="https://www.upyun.com/" target="_blank" rel="nofollow">又拍云</a> 提供 CDN 服务. <a href="http://www.google.com/analytics/" target="_blank" rel="nofollow">Google Analytics </a>提供网站统计服务. <a href="https://www.cloudxns.net/" target="_blank" rel="nofollow">CloudXNS </a>提供 DNS 解析服务.
   sitemap: /sitemap.xml
-#  beian:  <a href="http://www.beian.miit.gov.cn"  rel="nofollow"> 京ICP备19022569号</a>
+  beian: 鲁ICP备16000184号
 
-online_api: #wss://api.diygod.me/online/
+online_api: wss://api.diygod.me/online/
 
-description: <span>改革春风吹满地，</span><span>今天 coding 要努力！</span>
+description: <span>写代码是热爱，</span><span>写到世界充满爱！</span>
 
 # Theme version
-version: 0.0.42
-
-
-
+version: 0.0.50
