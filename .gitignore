@@ -6,6 +6,5 @@ node_modules/
 public/
 .deploy*/
 .idea/
-.vsc
+.vscode/
 
-/.deploy_git/
