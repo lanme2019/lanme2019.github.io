@@ -20,13 +20,13 @@ override: false
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
   visibilitychange: true
-  narmal: /images/favicon.ico
-  hidden: /images/failure.ico
+  narmal: /favicon.ico
+  hidden: /failure.ico
   show_text: (/≧▽≦/)咦！又好了！
   hide_text: (●—●)喔哟，崩溃啦！
-  apple_touch_icon: /images/DIYgod-180x180.jpg
-  safari_pinned_tab: /images/DIYgod.jpg
-  #android_manifest: /images/manifest.json
+  apple_touch_icon: /apple-touch-icon.png
+  safari_pinned_tab: /safari-pinned-tab.svg
+  android_manifest: /site.webmanifest
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
@@ -231,8 +231,8 @@ post_wordcount:
 
 # Reward
 reward_comment:
-wechatpay: #/images/wechatpay.png
-alipay: #
+wechatpay: /images/wechatpay.png
+alipay: /images/alipay.png
 bitcoin:
 
 # Declare license on posts
@@ -250,7 +250,7 @@ post_copyright:
 mobile_layout_economy: false
 
 # Android Chrome header panel color ($black-deep).
-android_chrome_color: "#222"
+android_chrome_color: "#da532c"
 
 # Custom Logo.
 # !!Only available for Default Scheme currently.
@@ -352,13 +352,13 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname: diygod-me
+  enable: true
+  shortname: Lanme2019
   count: false
-  api: https://disqus.diygod.me/api/
-  apikey: h403RnxQYBk2VylgLZwxodAtYOEL9bzgfhpcc8AZEU0EXn9cEWUoTwrgL3VB5tvj
-  admin: DIYgod
-  adminLabel: 服务生
+  api: https://disqus.skk.moe/disqus/
+  apikey: bnEeFuxmvq5RCTBle3y2fi18mRj2FhAGhIdgha5gb4V4UwoEUA733IdyWUTZFDSz
+  admin: Lanme2019
+  adminLabel: 妹抖
 
 # Hypercomments
 #hypercomments_id:
@@ -373,21 +373,13 @@ changyan:
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://github.com/xCss/Valine
-
-
 valine:
-  enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
-  appid: 5UrsL5MIa0yOmc6apq07pLJS-gzGzoHsz
-  appkey: t5Td04qmbvkbWBV8ohL4fw24
-  notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
+  enable: false
+  appid:  # your leancloud application appid
+  appkey:  # your leancloud application appkey
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
-  placeholder: 'Leave a message here' # comment box placeholder
-  avatar: mp # gravatar style
-  guest_info: nick,mail,link # custom comment header
-  pageSize: 10 # pagination size
-  language: zh-cn # language, available values: en, zh-cn
-  visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
-  comment_count: true # if false, comment count will only be displayed in post page, not in home page
+  placeholder: Comment input placeholder
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
@@ -539,7 +531,7 @@ leancloud_visitors:
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: ture
+  enable: true
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
@@ -548,7 +540,10 @@ busuanzi_count:
   site_pv: true
   site_pv_header: <i class="fa fa-eye"></i>
   site_pv_footer:
-
+  # custom pv span for one page only
+  page_pv: false
+  page_pv_header: <i class="fa fa-file-o"></i>
+  page_pv_footer:
 
 
 # Tencent analytics ID
@@ -577,7 +572,6 @@ calendar:
   showDeleted: false
   singleEvents: true
   maxResults: 250
-
 
 # Algolia Search
 algolia_search:
@@ -660,7 +654,7 @@ motion:
     sidebar: slideUpIn
 
 # Fancybox
-fancybox: true
+fancybox: false
 
 # Progress bar in the top during page loading.
 pace: false
@@ -700,7 +694,7 @@ canvas_sphere: false
 # alpha: The transparency of the ribbon.
 # zIndex: The display level of the ribbon.
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 100
   alpha: 0.6
   zIndex: -1
@@ -839,7 +833,4 @@ online_api: #wss://api.diygod.me/online/
 description: <span>改革春风吹满地，</span><span>今天 coding 要努力！</span>
 
 # Theme version
-version: 0.0.42
-
-
-
+version: 0.0.50

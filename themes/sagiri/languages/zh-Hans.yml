@@ -56,7 +56,7 @@ counter:
     other: "目前共计 %d 个标签"
 
   categories:
-    zero: 分类还在重新计划中~
+    zero: 暂无分类
     one: 目前共计 1 个分类
     other: "目前共计 %d 个分类"
 

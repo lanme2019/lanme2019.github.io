@@ -1,3 +1,3 @@
-# lanme2019.github.io
-小栾的菜鸟博客
+# luanmingyi.cn
 
+> My lovely blog

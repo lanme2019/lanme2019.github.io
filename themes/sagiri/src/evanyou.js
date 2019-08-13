@@ -15,14 +15,12 @@ if (document.getElementById('evanyou')) {
   c.height = h * pr
   x.scale(pr, pr)
   x.globalAlpha = 0.6
-
-  function evanyou() {
+  function evanyou () {
     x.clearRect(0, 0, w, h)
-    q = [{x: 0, y: h * .7 + f}, {x: 0, y: h * .7 - f}]
+    q = [{ x: 0, y: h * .7 + f }, { x: 0, y: h * .7 - f }]
     while (q[1].x < w + f) d(q[0], q[1])
   }
-
-  function d(i, j) {
+  function d (i, j) {
     x.beginPath()
     x.moveTo(i.x, i.y)
     x.lineTo(j.x, j.y)
@@ -34,14 +32,12 @@ if (document.getElementById('evanyou')) {
     x.fillStyle = '#' + (v(r) * 127 + 128 << 16 | v(r + u / 3) * 127 + 128 << 8 | v(r + u / 3 * 2) * 127 + 128).toString(16)
     x.fill()
     q[0] = q[1]
-    q[1] = {x: k, y: n}
+    q[1] = { x: k, y: n }
   }
-
-  function y(p) {
+  function y (p) {
     var t = p + (z() * 2 - 1.1) * f
     return (t > h || t < 0) ? y(p) : t
   }
-
   document.onclick = evanyou
   document.ontouchstart = evanyou
   evanyou()
