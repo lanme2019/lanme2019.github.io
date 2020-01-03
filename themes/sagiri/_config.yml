@@ -826,7 +826,7 @@ footer:
   # Any custom text can be defined here.
   custom_text: <a href="https://github.com/lanme2019" target="_blank" rel="nofollow"> GitHub</a>提供托管服务.  <a href="http://www.google.com/analytics/" target="_blank" rel="nofollow">Google Analytics </a>提供网站统计服务. <a href="https://https://www.upyun.com/" target="_blank" rel="nofollow">又拍云 </a>提供 CDN 服务.<a href="https://www.upyun.com/" target="_blank" rel="nofollow">  <img style="width:60px;vertical-align:middle;display:inline;" src="/images/youpai.png"></a>
   sitemap: /sitemap.xml
-#  beian:  <a href="http://www.beian.miit.gov.cn"  rel="nofollow"> 京ICP备19022569号</a>
+  beian:  <a href="http://www.beian.miit.gov.cn"  rel="nofollow"> 京ICP备19022569号</a>
 
 online_api: #wss://api.diygod.me/online/
 
